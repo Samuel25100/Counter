@@ -9,6 +9,14 @@ body {
 
 #clock {
     font-size: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 190vh;
+    border: solid 2px;
+    margin: 5px;
+    border-radius: 3rem;
 }
 
 .buttons {
@@ -22,6 +30,7 @@ body {
     color: white;
     border-radius: 2rem;
     padding: 1rem 1.5rem;
+    margin-top: 1rem;
 }
 .buttons button:hover {
     transition: at ease 3s;
